@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Global Tech Trends</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="HCD10100050.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 Global Technology Trends</h1>
+
+    <!-- Numerical Visualization -->
+    <section>
+      <h2>📈 Internet Users Over Time</h2>
+      <p>This line chart shows how the number of global internet users has grown from 2000 to 2023 (in millions).</p>
+      <div id="numerical" class="chart"></div>
+      <div class="reference">
+      Data source: <a href="https://ourworldindata.org/internet" target="_blank">Our World Data</a>
+      </div>
+    </section>
+
+    <!-- Spatial Visualization -->
+    <section>
+      <h2>🗺️ Internet Penetration by Country</h2>
+      <p>This map highlights how much of the population has internet access in different countries.</p>
+      <div id="spatial" class="chart"></div>
+      <script src="https://unpkg.com/topojson@3"></script>
+      <div class="reference">
+      Data source: <a href="https://www.statista.com/statistics/262966/number-of-internet-users-in-selected-countries/" target="_blank">statista</a>
+      </div>
+    </section>
+
+    <!-- Textual Visualization -->
+    <section>
+      <h2>💻 Most Popular Programming Languages</h2>
+      <p>This bar chart compares the popularity (in % of developers) of top programming languages in recent years.</p>
+      <div id="textual" class="chart"></div>
+      <div class="reference">
+      Data source: <a href="https://www.techspot.com/news/87274-developer-survey-finds-javascript-remains-most-popular-programming.html" target="_blank">TECHSPOT</a>
+      </div>
+    </section>
+  </div>
+
+  <script src="HCD10100050.js"></script>
+  
+</body>
+</html>
